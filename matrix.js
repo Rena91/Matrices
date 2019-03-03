@@ -6,7 +6,7 @@ export function newMatrix(rows,cols, input){
     let c = cols
     let v = input
     let matrix = Array(r)
-    console.log(matrix)
+    // console.log(matrix)
     for(let j =0 ; j<r;++j){
         matrix[j] = Array(c)
         for(let i=0;i<c;++i){
